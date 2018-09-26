@@ -1,0 +1,69 @@
+/* Estilos modificados */
+/* Header */
+#header nav {
+    background-color: #fff;
+    border-bottom: 2px solid #27b1b1;
+}
+#header nav button{
+    outline: none;
+    border: none;
+}
+#header nav button span {
+    color: #fff;
+}
+#header nav img {
+    width: 50px;
+    margin-right: 20px;
+}
+.text-highlight {
+    color: #26cfcf !important;
+}
+
+/* Main */
+#main .carousel-inner img {
+    max-height: 70vh;
+    object-fit: cover;
+    filter: brightness(40%);
+}
+#carousel {
+    position: relative;
+}
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+} 
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+#description {
+    background: linear-gradient(to right, #1863a8, #29b88d);  
+}
+#opinion form input:focus {
+    outline: none;
+}
+
+/* Footer */
+#footer {
+    background: linear-gradient(to left, #1863a8, #29b88d);
+}
+#footer a {
+    color: #fff;
+}
+
+/* Extras */
+.btn.btn-primary{
+    background: linear-gradient(to right, #1863a8, #29b88d);
+    border:none;
+}
+
+/* Media-Queries */
+@media (max-width: 576px){
+    #header nav img {
+        width: 35px;
+    }
+}
